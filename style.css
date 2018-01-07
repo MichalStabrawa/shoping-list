@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+}
+
+
+/*container style*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+input[type="number"],
+select {
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+}
+
+input[type="submit"]:hover{
+    opacity:0.8;
+    transition: 0.3s;
+    color:grey;
+}
+
+select {
+    height: 35px;
+}
+
+input {
+    height: 35px;
+}
+
+#pokaz{
+    width: 100px;
+    background: grey;
+    color:#fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+/*liclass*/
+
+.liclass {margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 500px;
+    height: 50px;
+    margin-top:10px;
+}
+
+.liclass button {
+    position: absolute;
+    right: 0%;
+    z-index: 10;
+    background:transparent;
+    border:1px solid black;
+    border-radius:8px;
+  
+}
