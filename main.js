@@ -42,5 +42,6 @@ document.getElementById('wyslij').addEventListener('click', function () {
 $(document).ready(function(){
     $("#usun").click(function(){
         $("li").remove();
+        $('#pokaz').val('');
     });
 });
