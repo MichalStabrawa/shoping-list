@@ -15,10 +15,13 @@ input[type="text"] {
     border-radius: 8px;
     border: 1px solid black;
     padding-left: 2px;
+    margin: 10px;
 }
 
+
+
 input[type="number"],
-select {
+select {margin: 10px;
     width: 60px;
     height: 30px;
     border-radius: 8px;
@@ -26,7 +29,7 @@ select {
     padding-left: 2px;
 }
 
-input[type="submit"] {
+input[type="submit"] {margin:10px;
     width: 100px;
     height: 35px;
     background: black;
@@ -88,3 +91,23 @@ select {
 #usun{
     background: red;
 }
+
+/*footer*/
+
+footer{
+    text-align:center;
+    height: 30vh;
+}
+
+footer .col-md-12{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+footer a{
+    margin: 10px;
+    color:black;
+}
+
